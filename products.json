@@ -1,182 +1,32 @@
 [
-  {
-    "name": "Asad Lattafa 100ml",
-    "price": "R$ 219,99",
-    "category": "Perfumes Árabes",
-    "tag": "Fragrância intensa e marcante"
-  },
-  {
-    "name": "Club de Nuit 100ml",
-    "price": "R$ 299,99",
-    "category": "Perfumes Árabes",
-    "tag": "Elegância intensa e moderna"
-  },
-  {
-    "name": "Yara Rosa 100ml",
-    "price": "R$ 199,99",
-    "category": "Perfumes Árabes",
-    "tag": "Doce, feminino e envolvente"
-  },
-  {
-    "name": "Good Girl",
-    "price": "R$ 699,99",
-    "category": "Perfumes Importados",
-    "tag": "Sofisticação feminina marcante"
-  },
-  {
-    "name": "iPhone 17 Pro Max 256GB Orange Lacrado",
-    "price": "R$ 8.400,00",
-    "category": "Aparelhos",
-    "tag": "Aparelho lacrado sob consulta"
-  },
-  {
-    "name": "iPhone 17 Pro Max 256GB Silver Lacrado",
-    "price": "R$ 8.600,00",
-    "category": "Aparelhos",
-    "tag": "Aparelho lacrado sob consulta"
-  },
-  {
-    "name": "5 Halas Black EDP 100ml",
-    "price": "R$ 299,99",
-    "category": "Perfumes Árabes",
-    "tag": "Presença forte e sofisticada"
-  },
-  {
-    "name": "Armaf Odyssey Mandarin Sky EDP",
-    "price": "R$ 318,99",
-    "category": "Perfumes Árabes",
-    "tag": "Fragrância moderna e exclusiva"
-  },
-  {
-    "name": "Club de Nuit Woman 105ml",
-    "price": "R$ 299,99",
-    "category": "Perfumes Árabes",
-    "tag": "Elegância feminina"
-  },
-  {
-    "name": "Yara Candy 100ml",
-    "price": "R$ 199,99",
-    "category": "Perfumes Árabes",
-    "tag": "Doce, jovem e envolvente"
-  },
-  {
-    "name": "Durrat Al Aroos EDP 85ml",
-    "price": "R$ 199,99",
-    "category": "Perfumes Árabes",
-    "tag": "Delicado e sofisticado"
-  },
-  {
-    "name": "Eclaire EDP 100ml",
-    "price": "R$ 215,99",
-    "category": "Perfumes Árabes",
-    "tag": "Doçura cremosa e elegante"
-  },
-  {
-    "name": "Khamrah Lattafa EDP",
-    "price": "R$ 249,99",
-    "category": "Perfumes Árabes",
-    "tag": "Quente, envolvente e marcante"
-  },
-  {
-    "name": "Yara Moi Branco EDP 100ml",
-    "price": "R$ 199,99",
-    "category": "Perfumes Árabes",
-    "tag": "Feminino e elegante"
-  },
-  {
-    "name": "Yara Tous Amarelo EDP 100ml",
-    "price": "R$ 199,99",
-    "category": "Perfumes Árabes",
-    "tag": "Vibrante e sofisticado"
-  },
-  {
-    "name": "Pride Of Lattafa Fakhar Black",
-    "price": "R$ 199,99",
-    "category": "Perfumes Árabes",
-    "tag": "Assinatura masculina marcante"
-  },
-  {
-    "name": "Rasasi Hawas For Him Masc",
-    "price": "R$ 214,99",
-    "category": "Perfumes Árabes",
-    "tag": "Fresco, intenso e desejado"
-  },
-  {
-    "name": "Sabah Al Ward EDP 100ml",
-    "price": "R$ 169,99",
-    "category": "Perfumes Árabes",
-    "tag": "Floral, elegante e feminino"
-  },
-  {
-    "name": "The Kingdom 100ml",
-    "price": "R$ 299,99",
-    "category": "Perfumes Árabes",
-    "tag": "Presença real e sofisticada"
-  },
-  {
-    "name": "212 VIP 80ml",
-    "price": "R$ 799,99",
-    "category": "Perfumes Importados",
-    "tag": "Estilo urbano e exclusivo"
-  },
-  {
-    "name": "Armani Acqua di Gio Parfum 100ml",
-    "price": "R$ 749,99",
-    "category": "Perfumes Importados",
-    "tag": "Elegância aquática masculina"
-  },
-  {
-    "name": "Azzaro Wanted EDP 100ml",
-    "price": "R$ 599,99",
-    "category": "Perfumes Importados",
-    "tag": "Intenso e sedutor"
-  },
-  {
-    "name": "Dolce & Gabbana The King Fem EDP 100ml",
-    "price": "R$ 599,99",
-    "category": "Perfumes Importados",
-    "tag": "Elegância feminina"
-  },
-  {
-    "name": "Dolce & Gabbana The One Gold 100ml",
-    "price": "R$ 699,99",
-    "category": "Perfumes Importados",
-    "tag": "Luxo em forma de fragrância"
-  },
-  {
-    "name": "Dolce & Gabbana The King EDP 100ml",
-    "price": "R$ 649,99",
-    "category": "Perfumes Importados",
-    "tag": "Presença masculina sofisticada"
-  },
-  {
-    "name": "Gabrielle Chanel EDP 100ml",
-    "price": "R$ 1.299,99",
-    "category": "Perfumes Importados",
-    "tag": "Clássico feminino de alto padrão"
-  },
-  {
-    "name": "Hidratante Angel 200ml",
-    "price": "R$ 499,99",
-    "category": "Perfumes Importados",
-    "tag": "Cuidado sofisticado"
-  },
-  {
-    "name": "Perfume Prada Ocean 100ml EDT",
-    "price": "R$ 589,99",
-    "category": "Perfumes Importados",
-    "tag": "Fresco, moderno e elegante"
-  },
-  {
-    "name": "Tester Dolce & Gabbana Light Blue",
-    "price": "R$ 549,99",
-    "category": "Perfumes Importados",
-    "tag": "Leveza mediterrânea"
-  },
-  {
-    "name": "Carregador Turbo 68W",
-    "price": "R$ 49,99",
-    "category": "Acessórios",
-    "tag": "Mais velocidade para sua rotina"
-  }
+  { "name": "Asad Lattafa 100ml", "price": "R$ 219,99", "category": "Perfumes Árabes", "tag": "Fragrância intensa e marcante" },
+  { "name": "Club de Nuit 100ml", "price": "R$ 299,99", "category": "Perfumes Árabes", "tag": "Elegância intensa e moderna" },
+  { "name": "Yara Rosa 100ml", "price": "R$ 199,99", "category": "Perfumes Árabes", "tag": "Doce, feminino e envolvente" },
+  { "name": "Good Girl", "price": "R$ 699,99", "category": "Perfumes Importados", "tag": "Sofisticação feminina marcante" },
+  { "name": "iPhone 17 Pro Max 256GB Orange Lacrado", "price": "R$ 8.400,00", "category": "Aparelhos", "tag": "Aparelho lacrado sob consulta" },
+  { "name": "iPhone 17 Pro Max 256GB Silver Lacrado", "price": "R$ 8.600,00", "category": "Aparelhos", "tag": "Aparelho lacrado sob consulta" },
+  { "name": "5 Halas Black EDP 100ml", "price": "R$ 299,99", "category": "Perfumes Árabes", "tag": "Presença forte e sofisticada" },
+  { "name": "Armaf Odyssey Mandarin Sky EDP", "price": "R$ 318,99", "category": "Perfumes Árabes", "tag": "Fragrância moderna e exclusiva" },
+  { "name": "Club de Nuit Woman 105ml", "price": "R$ 299,99", "category": "Perfumes Árabes", "tag": "Elegância feminina" },
+  { "name": "Yara Candy 100ml", "price": "R$ 199,99", "category": "Perfumes Árabes", "tag": "Doce, jovem e envolvente" },
+  { "name": "Durrat Al Aroos EDP 85ml", "price": "R$ 199,99", "category": "Perfumes Árabes", "tag": "Delicado e sofisticado" },
+  { "name": "Eclaire EDP 100ml", "price": "R$ 215,99", "category": "Perfumes Árabes", "tag": "Doçura cremosa e elegante" },
+  { "name": "Khamrah Lattafa EDP", "price": "R$ 249,99", "category": "Perfumes Árabes", "tag": "Quente, envolvente e marcante" },
+  { "name": "Yara Moi Branco EDP 100ml", "price": "R$ 199,99", "category": "Perfumes Árabes", "tag": "Feminino e elegante" },
+  { "name": "Yara Tous Amarelo EDP 100ml", "price": "R$ 199,99", "category": "Perfumes Árabes", "tag": "Vibrante e sofisticado" },
+  { "name": "Pride Of Lattafa Fakhar Black", "price": "R$ 199,99", "category": "Perfumes Árabes", "tag": "Assinatura masculina marcante" },
+  { "name": "Rasasi Hawas For Him", "price": "R$ 214,99", "category": "Perfumes Árabes", "tag": "Fresco, intenso e desejado" },
+  { "name": "Sabah Al Ward EDP 100ml", "price": "R$ 169,99", "category": "Perfumes Árabes", "tag": "Floral, elegante e feminino" },
+  { "name": "The Kingdom 100ml", "price": "R$ 299,99", "category": "Perfumes Árabes", "tag": "Presença real e sofisticada" },
+  { "name": "212 VIP 80ml", "price": "R$ 799,99", "category": "Perfumes Importados", "tag": "Estilo urbano e exclusivo" },
+  { "name": "Armani Acqua di Gio Parfum 100ml", "price": "R$ 749,99", "category": "Perfumes Importados", "tag": "Elegância aquática masculina" },
+  { "name": "Azzaro Wanted EDP 100ml", "price": "R$ 599,99", "category": "Perfumes Importados", "tag": "Intenso e sedutor" },
+  { "name": "Dolce & Gabbana The King Fem EDP 100ml", "price": "R$ 599,99", "category": "Perfumes Importados", "tag": "Elegância feminina" },
+  { "name": "Dolce & Gabbana The One Gold 100ml", "price": "R$ 699,99", "category": "Perfumes Importados", "tag": "Luxo em forma de fragrância" },
+  { "name": "Dolce & Gabbana The King EDP 100ml", "price": "R$ 649,99", "category": "Perfumes Importados", "tag": "Presença masculina sofisticada" },
+  { "name": "Gabrielle Chanel EDP 100ml", "price": "R$ 1.299,99", "category": "Perfumes Importados", "tag": "Clássico feminino de alto padrão" },
+  { "name": "Hidratante Angel 200ml", "price": "R$ 499,99", "category": "Perfumes Importados", "tag": "Cuidado sofisticado" },
+  { "name": "Prada Paradoxe 100ml EDT", "price": "R$ 589,99", "category": "Perfumes Importados", "tag": "Fresco, moderno e elegante" },
+  { "name": "Dolce & Gabbana Light Blue 80ml", "price": "R$ 549,99", "category": "Perfumes Importados", "tag": "Leveza mediterrânea" },
+  { "name": "Carregador Turbo 68W", "price": "R$ 49,99", "category": "Acessórios", "tag": "Mais velocidade para sua rotina" }
 ]
