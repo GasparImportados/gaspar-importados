@@ -7,99 +7,175 @@
   <meta name="description" content="Gaspar Importados: perfumes árabes, perfumes importados, aparelhos e acessórios selecionados. Produto original, disponível sob consulta e prazo médio de entrega até 7 dias." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="noise"></div>
-  <header class="topbar">
+
+  <!-- HEADER -->
+  <header class="topbar" id="topbar">
     <a href="#" class="brand">
       <img src="assets/logo-gaspar.png" alt="Gaspar Importados" onerror="this.style.display='none'">
-      <span>Gaspar Importados</span>
+      <span class="brand-name">Gaspar <em>Importados</em></span>
     </a>
     <nav>
       <a href="#colecao">Coleção</a>
       <a href="#como-funciona">Como funciona</a>
       <a href="#contato">Contato</a>
     </nav>
+    <a class="nav-whatsapp" href="https://wa.me/5571993570820?text=Olá%2C%20vim%20pelo%20site%20da%20Gaspar%20Importados%20e%20quero%20consultar%20disponibilidade." target="_blank">WhatsApp</a>
   </header>
 
-  <main>
-    <section class="hero">
-      <div class="hero-copy">
-        <p class="eyebrow">Boutique digital de importados</p>
-        <h1>Seleção. Presença. Exclusividade.</h1>
-        <p class="lead">Fragrâncias, tecnologia e acessórios escolhidos para quem valoriza autenticidade, qualidade e sofisticação.</p>
-        <div class="hero-badges">
-          <span>🔒 Produto original</span>
-          <span>🚚 Entrega até 7 dias</span>
-          <span>📦 Sob consulta</span>
-        </div>
-        <div class="actions">
-          <a class="btn primary" href="#colecao">Explorar coleção</a>
-          <a class="btn ghost" target="_blank" href="https://wa.me/5571993570820?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Gaspar%20Importados%20e%20quero%20consultar%20disponibilidade.">Falar no WhatsApp</a>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg">
+      <div class="hero-orb orb1"></div>
+      <div class="hero-orb orb2"></div>
+      <div class="hero-orb orb3"></div>
+      <div class="grain"></div>
+    </div>
+    <div class="hero-content">
+      <p class="eyebrow">✦ Boutique digital de importados</p>
+      <h1>Seleção.<br><em>Presença.</em><br>Exclusividade.</h1>
+      <p class="lead">Fragrâncias, tecnologia e acessórios escolhidos para quem valoriza autenticidade, qualidade e sofisticação.</p>
+      <div class="hero-badges">
+        <span>🔒 Produto original</span>
+        <span>🚚 Entrega até 7 dias</span>
+        <span>📦 Consulta via WhatsApp</span>
+      </div>
+      <div class="hero-actions">
+        <a class="btn-primary" href="#colecao">Explorar coleção</a>
+        <a class="btn-ghost" href="https://wa.me/5571993570820?text=Olá%2C%20vim%20pelo%20site%20da%20Gaspar%20Importados%20e%20quero%20consultar%20disponibilidade." target="_blank">Falar no WhatsApp</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-card-wrap">
+        <div class="hero-card">
+          <div class="card-monogram">G</div>
+          <div class="card-text">
+            <small>Curadoria premium</small>
+            <h3>Não trabalhamos com volume.<br>Trabalhamos com seleção.</h3>
+          </div>
+          <div class="card-shine"></div>
         </div>
       </div>
-      <div class="hero-card">
-        <div class="watermark">G</div>
-        <p>Conectando você ao que importa.</p>
-        <h2>Curadoria premium</h2>
-        <small>Não trabalhamos com volume. Trabalhamos com seleção.</small>
-      </div>
-    </section>
+    </div>
+  </section>
 
-    <section class="categories" aria-label="Categorias">
+  <!-- STATS BAR -->
+  <div class="stats-bar">
+    <div class="stat"><strong>30+</strong><span>Produtos selecionados</span></div>
+    <div class="stat-divider"></div>
+    <div class="stat"><strong>100%</strong><span>Produtos originais</span></div>
+    <div class="stat-divider"></div>
+    <div class="stat"><strong>7 dias</strong><span>Prazo médio de entrega</span></div>
+    <div class="stat-divider"></div>
+    <div class="stat"><strong>SSA</strong><span>Atendimento em Salvador/BA</span></div>
+  </div>
+
+  <!-- COLEÇÃO -->
+  <section id="colecao" class="section-catalog">
+    <div class="section-header">
+      <div>
+        <p class="eyebrow">✦ Coleção Gaspar</p>
+        <h2>Produtos selecionados</h2>
+      </div>
+      <p class="section-desc">Disponibilidade confirmada pelo WhatsApp. Atendimento personalizado para cada cliente.</p>
+    </div>
+
+    <div class="categories" role="tablist">
       <button class="cat active" data-category="Todos">Todos</button>
       <button class="cat" data-category="Perfumes Árabes">Perfumes Árabes</button>
       <button class="cat" data-category="Perfumes Importados">Perfumes Importados</button>
       <button class="cat" data-category="Aparelhos">Aparelhos</button>
       <button class="cat" data-category="Acessórios">Acessórios</button>
-    </section>
+    </div>
 
-    <section id="colecao" class="section">
-      <div class="section-title">
-        <div>
-          <p class="eyebrow">Coleção Gaspar</p>
-          <h2>Produtos selecionados</h2>
-        </div>
-        <p>Valores exibidos para referência. Disponibilidade confirmada pelo WhatsApp.</p>
-      </div>
-      <div id="productsGrid" class="grid"></div>
-    </section>
+    <div id="productsGrid" class="products-grid"></div>
+  </section>
 
-    <section id="como-funciona" class="how">
-      <div>
-        <p class="eyebrow">Como funciona</p>
+  <!-- COMO FUNCIONA -->
+  <section id="como-funciona" class="section-how">
+    <div class="how-inner">
+      <div class="how-text">
+        <p class="eyebrow">✦ Como funciona</p>
         <h2>Exclusividade com atendimento direto</h2>
         <p>Alguns produtos podem estar disponíveis para envio imediato. Outros são consultados junto aos nossos fornecedores e entregues em prazo médio de até 7 dias.</p>
+        <a class="btn-primary" href="https://wa.me/5571993570820?text=Olá%2C%20quero%20consultar%20um%20produto%20da%20Gaspar%20Importados." target="_blank">Iniciar consulta</a>
       </div>
       <div class="steps">
-        <article><strong>01</strong><span>Escolha o produto</span></article>
-        <article><strong>02</strong><span>Consulte disponibilidade</span></article>
-        <article><strong>03</strong><span>Receba acompanhamento pelo WhatsApp</span></article>
+        <div class="step">
+          <div class="step-num">01</div>
+          <div class="step-info">
+            <h4>Escolha o produto</h4>
+            <p>Navegue pela coleção e encontre o que deseja.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num">02</div>
+          <div class="step-info">
+            <h4>Consulte disponibilidade</h4>
+            <p>Entre em contato pelo WhatsApp com o item desejado.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num">03</div>
+          <div class="step-info">
+            <h4>Receba com acompanhamento</h4>
+            <p>Acompanhe seu pedido em tempo real pelo WhatsApp.</p>
+          </div>
+        </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section class="about">
-      <p class="eyebrow">Sobre a Gaspar</p>
+  <!-- SOBRE -->
+  <section class="section-about">
+    <div class="about-inner">
+      <p class="eyebrow">✦ Sobre a Gaspar</p>
       <h2>Uma vitrine para quem valoriza o excepcional.</h2>
       <p>A Gaspar Importados nasceu para reunir produtos originais, selecionados e apresentados com uma experiência mais sofisticada. Aqui, cada item precisa comunicar presença, qualidade e desejo.</p>
-    </section>
-  </main>
-
-  <footer id="contato">
-    <div>
-      <strong>Gaspar Importados</strong>
-      <p>Seleção. Presença. Exclusividade.</p>
+      <div class="about-tags">
+        <span>Fragrâncias Árabes</span>
+        <span>Perfumes Internacionais</span>
+        <span>Tecnologia</span>
+        <span>Acessórios Premium</span>
+      </div>
     </div>
-    <div>
-      <p>WhatsApp: <a href="https://wa.me/5571993570820" target="_blank">71 99357-0820</a></p>
-      <p>Instagram: <a href="https://instagram.com/gaspar_import" target="_blank">@gaspar_import</a></p>
-      <p>E-mail: gaspar01importados@gmail.com</p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="contato" class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="brand-name">Gaspar <em>Importados</em></span>
+        <p>Seleção. Presença. Exclusividade.</p>
+      </div>
+      <div class="footer-contact">
+        <h5>Contato</h5>
+        <a href="https://wa.me/5571993570820" target="_blank">📱 71 99357-0820</a>
+        <a href="https://instagram.com/gaspar_import" target="_blank">📸 @gaspar_import</a>
+        <a href="mailto:gaspar01importados@gmail.com">✉️ gaspar01importados@gmail.com</a>
+      </div>
+      <div class="footer-nav">
+        <h5>Navegação</h5>
+        <a href="#colecao">Coleção</a>
+        <a href="#como-funciona">Como funciona</a>
+        <a href="#contato">Contato</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Gaspar Importados. Todos os direitos reservados.</p>
     </div>
   </footer>
 
-  <a class="floating-whatsapp" target="_blank" href="https://wa.me/5571993570820?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Gaspar%20Importados%20e%20quero%20consultar%20disponibilidade.">WhatsApp</a>
+  <!-- FLOATING WHATSAPP -->
+  <a class="floating-wa" href="https://wa.me/5571993570820?text=Olá%2C%20vim%20pelo%20site%20da%20Gaspar%20Importados%20e%20quero%20consultar%20disponibilidade." target="_blank" aria-label="WhatsApp">
+    <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </svg>
+  </a>
+
   <script src="script.js"></script>
 </body>
 </html>
