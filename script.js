@@ -1,5 +1,5 @@
 // ===========================
-// GASPAR IMPORTADOS — SCRIPT
+// GASPAR IMPORTADOS — SCRIPT 
 // ===========================
 
 const products = [
