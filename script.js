@@ -1,4 +1,3 @@
-```javascript
 // ===========================
 // GASPAR IMPORTADOS — SCRIPT
 // ===========================
@@ -97,4 +96,3 @@ window.addEventListener("scroll", () => {
 
 // --- INIT ---
 renderProducts();
-```
