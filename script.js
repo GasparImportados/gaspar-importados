@@ -7,8 +7,8 @@ const products = [
   { name: "Club de Nuit 100ml", price: "R$ 299,99", category: "Perfumes Árabes", tag: "Elegância intensa e moderna", img: "assets/club-de-nuit.png.png" },
   { name: "Yara Rosa 100ml", price: "R$ 199,99", category: "Perfumes Árabes", tag: "Doce, feminino e envolvente", img: "assets/yara-rosa.png.png" },
   { name: "Good Girl", price: "R$ 699,99", category: "Perfumes Importados", tag: "Sofisticação feminina marcante", img: "assets/good-girl.png.png" },
-  { name: "iPhone 17 Pro Max 256GB Orange Lacrado", price: "R$ 8.400,00", category: "Aparelhos", tag: "Aparelho lacrado sob consulta", img: "assets/17-pro-max-256-orange.png.png" },
-  { name: "iPhone 17 Pro Max 256GB Silver Lacrado", price: "R$ 8.600,00", category: "Aparelhos", tag: "Aparelho lacrado sob consulta", img: "assets/17-pro-max-256-silver.png.png" },
+  { name: "iPhone 17 Pro Max 256GB Orange Lacrado", price: "R$ 8.400,00", category: "Smartphones", tag: "Aparelho lacrado sob consulta", img: "assets/17-pro-max-256-orange.png.png" },
+  { name: "iPhone 17 Pro Max 256GB Silver Lacrado", price: "R$ 8.600,00", category: "Smartphones", tag: "Aparelho lacrado sob consulta", img: "assets/17-pro-max-256-silver.png.png" },
   { name: "5 Halas Black EDP 100ml", price: "R$ 299,99", category: "Perfumes Árabes", tag: "Presença forte e sofisticada", img: "assets/halas-black.png.png" },
   { name: "Armaf Odyssey Mandarin Sky EDP", price: "R$ 318,99", category: "Perfumes Árabes", tag: "Fragrância moderna e exclusiva", img: "assets/odyssey-mandarin.png.png" },
   { name: "Club de Nuit Woman 105ml", price: "R$ 299,99", category: "Perfumes Árabes", tag: "Elegância feminina", img: "assets/club-de-nuit-woman.png.png" },
@@ -66,6 +66,17 @@ document.querySelectorAll(".cat").forEach(btn => {
     document.querySelectorAll(".cat").forEach(b => b.classList.remove("active"));
     btn.classList.add("active");
     renderProducts(btn.dataset.category);
+  });
+});
+
+document.querySelectorAll(".cat-card").forEach(card => {
+  card.addEventListener("click", () => {
+    const filter = card.dataset.filter;
+    document.getElementById("colecao").scrollIntoView({ behavior: "smooth" });
+    document.querySelectorAll(".cat").forEach(b => {
+      b.classList.toggle("active", b.dataset.category === filter);
+    });
+    renderProducts(filter);
   });
 });
 
