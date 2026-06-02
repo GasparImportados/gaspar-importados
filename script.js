@@ -69,6 +69,37 @@ document.querySelectorAll(".cat").forEach(btn => {
   });
 });
 
+// LIGHTBOX
+const lightbox = document.getElementById('lightbox');
+const lightboxImg = document.getElementById('lightboxImg');
+
+function openLightbox(src, alt) {
+  lightboxImg.src = src;
+  lightboxImg.alt = alt;
+  lightbox.classList.add('active');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeLightbox() {
+  lightbox.classList.remove('active');
+  document.body.style.overflow = '';
+}
+
+document.getElementById('productsGrid').addEventListener('click', e => {
+  const img = e.target.closest('.product-image');
+  if (img) openLightbox(img.src, img.alt);
+});
+
+document.getElementById('lightboxClose').addEventListener('click', closeLightbox);
+
+lightbox.addEventListener('click', e => {
+  if (e.target === lightbox) closeLightbox();
+});
+
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') closeLightbox();
+});
+
 document.querySelectorAll(".cat-card").forEach(card => {
   card.addEventListener("click", () => {
     const filter = card.dataset.filter;
