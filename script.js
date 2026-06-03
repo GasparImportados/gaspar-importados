@@ -36,7 +36,10 @@ const products = [
   { name: "Diannah Pour Femme", price: "R$ 179,99", category: "Perfumes Árabes", tag: "Feminino, delicado e envolvente", img: "assets/diannah-vurv.png", brand: "VÜRV" },
   { name: "Enora Rouge", price: "R$ 179,99", category: "Perfumes Árabes", tag: "Intenso, floral e marcante", img: "assets/enora-vurv.jpg", brand: "VÜRV" },
   { name: "Invoke", price: "R$ 179,99", category: "Perfumes Árabes", tag: "Moderno, fresco e sedutor", img: "assets/invoke-vurv.png", brand: "VÜRV" },
-  { name: "La Bellezza", price: "R$ 179,99", category: "Perfumes Árabes", tag: "Floral e envolvente para a mulher moderna", img: "assets/la-bellezza-vurv.png", brand: "VÜRV" }
+  { name: "La Bellezza", price: "R$ 179,99", category: "Perfumes Árabes", tag: "Floral e envolvente para a mulher moderna", img: "assets/la-bellezza-vurv.png", brand: "VÜRV" },
+  { name: "Salvage Elixir", price: "R$ 199,99", category: "Perfumes Árabes", tag: "Intenso e misterioso. Um elixir que marca presença onde quer que você vá.", img: "assets/salvage-elixir-vurv.png", brand: "VÜRV" },
+  { name: "Dareful Pour Homme", price: "R$ 199,99", category: "Perfumes Árabes", tag: "Ousado e sofisticado. Para homens que não passam despercebidos.", img: "assets/dareful-vurv.png", brand: "VÜRV" },
+  { name: "Cuir Ébène", price: "R$ 199,99", category: "Perfumes Árabes", tag: "Couro negro e madeiras raras. Uma fragrância de presença inegável.", img: "assets/cuir-ebene-vurv.png", brand: "VÜRV" }
 ];
 
 function renderProducts(filter = "Todos") {
