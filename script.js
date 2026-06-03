@@ -33,10 +33,10 @@ const products = [
   { name: "Prada Paradoxe 100ml EDT", price: "R$ 589,99", category: "Perfumes Importados", tag: "Fresco, moderno e elegante", img: "assets/prada-paradoxe.png.png" },
   { name: "Dolce & Gabbana Light Blue 80ml", price: "R$ 549,99", category: "Perfumes Importados", tag: "Leveza mediterrânea", img: "assets/light-blue.png.png" },
   { name: "Carregador Turbo 68W", price: "R$ 49,99", category: "Acessórios", tag: "Mais velocidade para sua rotina", img: "assets/carregador-turbo -68W.png.png" },
-  { name: "Diannah Pour Femme", price: "R$ 179,99", category: "Perfumes Árabes", tag: "Feminino, delicado e envolvente", img: "assets/diannah-vurv.png" },
-  { name: "Enora Rouge", price: "R$ 179,99", category: "Perfumes Árabes", tag: "Intenso, floral e marcante", img: "assets/enora-vurv.jpg" },
-  { name: "Invoke", price: "R$ 179,99", category: "Perfumes Árabes", tag: "Moderno, fresco e sedutor", img: "assets/invoke-vurv.png" },
-  { name: "La Bellezza", price: "R$ 179,99", category: "Perfumes Árabes", tag: "Floral e envolvente para a mulher moderna", img: "assets/la-bellezza-vurv.png" }
+  { name: "Diannah Pour Femme", price: "R$ 179,99", category: "Perfumes Árabes", tag: "Feminino, delicado e envolvente", img: "assets/diannah-vurv.png", brand: "VÜRV" },
+  { name: "Enora Rouge", price: "R$ 179,99", category: "Perfumes Árabes", tag: "Intenso, floral e marcante", img: "assets/enora-vurv.jpg", brand: "VÜRV" },
+  { name: "Invoke", price: "R$ 179,99", category: "Perfumes Árabes", tag: "Moderno, fresco e sedutor", img: "assets/invoke-vurv.png", brand: "VÜRV" },
+  { name: "La Bellezza", price: "R$ 179,99", category: "Perfumes Árabes", tag: "Floral e envolvente para a mulher moderna", img: "assets/la-bellezza-vurv.png", brand: "VÜRV" }
 ];
 
 function renderProducts(filter = "Todos") {
@@ -53,7 +53,10 @@ function renderProducts(filter = "Todos") {
       <img class="product-image" src="${product.img}" alt="${product.name}" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
       <div class="product-image-placeholder" style="display:none;">G</div>
       <div class="product-body">
-        <span class="product-category">${product.category}</span>
+        <div class="product-meta">
+          <span class="product-category">${product.category}</span>
+          ${product.brand ? `<span class="product-brand">${product.brand}</span>` : ''}
+        </div>
         <h3 class="product-name">${product.name}</h3>
         <p class="product-tag">${product.tag}</p>
         <div class="product-footer">
