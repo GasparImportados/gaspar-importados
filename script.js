@@ -4,7 +4,7 @@
 
 const products = [
   { name: "Asad Lattafa 100ml", price: "R$ 219,99", category: "Perfumes Árabes", tag: "Fragrância intensa e marcante", img: "assets/asad-lattafa.png.png", brand: "Lattafa" },
-  { name: "Club de Nuit 100ml", price: "R$ 299,99", category: "Perfumes Árabes", tag: "Elegância intensa e moderna", img: "assets/club-de-nuit.png.png", brand: "Armaf" },
+  { name: "Club de Nuit 100ml", price: "R$ 299,99", category: "Perfumes Árabes", tag: "Elegância intensa e moderna", img: "assets/club-de-nuit.png", brand: "Armaf" },
   { name: "Yara Rosa 100ml", price: "R$ 219,99", category: "Perfumes Árabes", tag: "Doce, feminino e envolvente", img: "assets/yara-rosa.png.png", brand: "Lattafa" },
   { name: "Good Girl", price: "R$ 699,99", category: "Perfumes Importados", tag: "Sofisticação feminina marcante", img: "assets/good-girl.png.png", brand: "Carolina Herrera" },
   { name: "iPhone 17 Pro Max 256GB Orange Lacrado", price: "R$ 8.400,00", category: "Smartphones", tag: "Aparelho lacrado sob consulta", img: "assets/17-pro-max-256-orange.png.png", brand: "Apple" },
