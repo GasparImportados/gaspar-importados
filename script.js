@@ -32,13 +32,13 @@ const products = [
   { name: "Hidratante Angel 200ml", price: "R$ 499,99", category: "Perfumes Importados", tag: "Cuidado sofisticado", img: "assets/hidratante-angel.png.png", brand: "Mugler" },
   { name: "Prada Paradoxe 100ml EDT", price: "R$ 589,99", category: "Perfumes Importados", tag: "Fresco, moderno e elegante", img: "assets/prada-paradoxe.png.png", brand: "Prada" },
   { name: "Dolce & Gabbana Light Blue 80ml", price: "R$ 549,99", category: "Perfumes Importados", tag: "Leveza mediterrânea", img: "assets/light-blue.png.png", brand: "D&G" },
-  { name: "Diannah Pour Femme", price: "R$ 179,99", category: "Perfumes Árabes", tag: "Feminino, delicado e envolvente", img: "assets/diannah-vurv.png", brand: "VÜRV" },
-  { name: "Enora Rouge", price: "R$ 179,99", category: "Perfumes Árabes", tag: "Intenso, floral e marcante", img: "assets/enora-vurv.jpg", brand: "VÜRV" },
-  { name: "Invoke", price: "R$ 179,99", category: "Perfumes Árabes", tag: "Moderno, fresco e sedutor", img: "assets/invoke-vurv.png", brand: "VÜRV" },
-  { name: "La Bellezza", price: "R$ 179,99", category: "Perfumes Árabes", tag: "Floral e envolvente para a mulher moderna", img: "assets/la-bellezza-vurv.png", brand: "VÜRV" },
-  { name: "Salvage Elixir", price: "R$ 199,99", category: "Perfumes Árabes", tag: "Intenso e misterioso. Um elixir que marca presença onde quer que você vá.", img: "assets/salvage-elixir-vurv.png", brand: "VÜRV" },
-  { name: "Dareful Pour Homme", price: "R$ 199,99", category: "Perfumes Árabes", tag: "Ousado e sofisticado. Para homens que não passam despercebidos.", img: "assets/dareful-vurv.png", brand: "VÜRV" },
-  { name: "Cuir Ébène", price: "R$ 199,99", category: "Perfumes Árabes", tag: "Couro negro e madeiras raras. Uma fragrância de presença inegável.", img: "assets/cuir-ebene-vurv.png", brand: "VÜRV" },
+  { name: "Diannah Pour Femme", price: "R$ 199,99", category: "Perfumes Árabes", tag: "Feminino, delicado e envolvente", img: "assets/diannah-vurv.png", brand: "VÜRV" },
+  { name: "Enora Rouge", price: "R$ 219,99", category: "Perfumes Árabes", tag: "Intenso, floral e marcante", img: "assets/enora-vurv.jpg", brand: "VÜRV" },
+  { name: "Invoke", price: "R$ 199,99", category: "Perfumes Árabes", tag: "Moderno, fresco e sedutor", img: "assets/invoke-vurv.png", brand: "VÜRV" },
+  { name: "La Bellezza", price: "R$ 199,99", category: "Perfumes Árabes", tag: "Floral e envolvente para a mulher moderna", img: "assets/la-bellezza-vurv.png", brand: "VÜRV" },
+  { name: "Salvage Elixir", price: "R$ 219,99", category: "Perfumes Árabes", tag: "Intenso e misterioso. Um elixir que marca presença onde quer que você vá.", img: "assets/salvage-elixir-vurv.png", brand: "VÜRV" },
+  { name: "Dareful Pour Homme", price: "R$ 219,99", category: "Perfumes Árabes", tag: "Ousado e sofisticado. Para homens que não passam despercebidos.", img: "assets/dareful-vurv.png", brand: "VÜRV" },
+  { name: "Cuir Ébène", price: "R$ 165,00", category: "Perfumes Árabes", tag: "Couro negro e madeiras raras. Uma fragrância de presença inegável.", img: "assets/cuir-ebene-vurv.png", brand: "VÜRV" },
   { name: "Xiaomi Power Bank 10000mAh", price: "R$ 249,99", category: "Acessórios", tag: "Power Bank Xiaomi 10000mAh com cabo integrado USB-C, saída dupla USB-A + USB-C e segurança avançada.", img: "assets/xiaomi-power-bank.png", brand: "Xiaomi" }
 ];
 
