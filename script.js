@@ -38,7 +38,8 @@ const products = [
   { name: "La Bellezza", price: "R$ 179,99", category: "Perfumes Árabes", tag: "Floral e envolvente para a mulher moderna", img: "assets/la-bellezza-vurv.png", brand: "VÜRV" },
   { name: "Salvage Elixir", price: "R$ 199,99", category: "Perfumes Árabes", tag: "Intenso e misterioso. Um elixir que marca presença onde quer que você vá.", img: "assets/salvage-elixir-vurv.png", brand: "VÜRV" },
   { name: "Dareful Pour Homme", price: "R$ 199,99", category: "Perfumes Árabes", tag: "Ousado e sofisticado. Para homens que não passam despercebidos.", img: "assets/dareful-vurv.png", brand: "VÜRV" },
-  { name: "Cuir Ébène", price: "R$ 199,99", category: "Perfumes Árabes", tag: "Couro negro e madeiras raras. Uma fragrância de presença inegável.", img: "assets/cuir-ebene-vurv.png", brand: "VÜRV" }
+  { name: "Cuir Ébène", price: "R$ 199,99", category: "Perfumes Árabes", tag: "Couro negro e madeiras raras. Uma fragrância de presença inegável.", img: "assets/cuir-ebene-vurv.png", brand: "VÜRV" },
+  { name: "Xiaomi Power Bank 10000mAh", price: "R$ 249,99", category: "Acessórios", tag: "Power Bank Xiaomi 10000mAh com cabo integrado USB-C, saída dupla USB-A + USB-C e segurança avançada.", img: "assets/xiaomi-power-bank.png", brand: "Xiaomi" }
 ];
 
 function renderProducts(filter = "Todos") {
