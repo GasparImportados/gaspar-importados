@@ -32,7 +32,6 @@ const products = [
   { name: "Hidratante Angel 200ml", price: "R$ 499,99", category: "Perfumes Importados", tag: "Cuidado sofisticado", img: "assets/hidratante-angel.png.png", brand: "Mugler" },
   { name: "Prada Paradoxe 100ml EDT", price: "R$ 589,99", category: "Perfumes Importados", tag: "Fresco, moderno e elegante", img: "assets/prada-paradoxe.png.png", brand: "Prada" },
   { name: "Dolce & Gabbana Light Blue 80ml", price: "R$ 549,99", category: "Perfumes Importados", tag: "Leveza mediterrânea", img: "assets/light-blue.png.png", brand: "D&G" },
-  { name: "Carregador Turbo 68W", price: "R$ 49,99", category: "Acessórios", tag: "Mais velocidade para sua rotina", img: "assets/carregador-turbo -68W.png.png" },
   { name: "Diannah Pour Femme", price: "R$ 179,99", category: "Perfumes Árabes", tag: "Feminino, delicado e envolvente", img: "assets/diannah-vurv.png", brand: "VÜRV" },
   { name: "Enora Rouge", price: "R$ 179,99", category: "Perfumes Árabes", tag: "Intenso, floral e marcante", img: "assets/enora-vurv.jpg", brand: "VÜRV" },
   { name: "Invoke", price: "R$ 179,99", category: "Perfumes Árabes", tag: "Moderno, fresco e sedutor", img: "assets/invoke-vurv.png", brand: "VÜRV" },
