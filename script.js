@@ -3,6 +3,7 @@
 // ===========================
 
 const products = [
+  { name: "Asad Bourbon 100ml", price: "R$ 219,99", category: "Perfumes Árabes", tag: "Amadeirado, intenso e sofisticado", img: "assets/asad-bourbon-lattafa.jpg", brand: "Lattafa" },
   { name: "Asad Lattafa 100ml", price: "R$ 219,99", category: "Perfumes Árabes", tag: "Fragrância intensa e marcante", img: "assets/asad-lattafa.png.png", brand: "Lattafa" },
   { name: "Club de Nuit 100ml", price: "R$ 299,99", category: "Perfumes Árabes", tag: "Elegância intensa e moderna", img: "assets/club-de-nuit.png", brand: "Armaf" },
   { name: "Yara Rosa 100ml", price: "R$ 219,99", category: "Perfumes Árabes", tag: "Doce, feminino e envolvente", img: "assets/yara-rosa.png.png", brand: "Lattafa" },
